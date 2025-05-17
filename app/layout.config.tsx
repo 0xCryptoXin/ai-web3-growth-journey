@@ -29,5 +29,10 @@ export const baseOptions: BaseLayoutProps = {
       url: '/docs',
       active: 'nested-url',
     },
+    {
+      text: '心情交友',
+      url: '/make-friends',
+      active: 'nested-url',
+    },
   ],
 };

@@ -88,6 +88,11 @@ export function HeroSection() {
                 开始探索 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
+            <Button asChild size="lg" className="bg-gradient-to-r from-indigo-600 to-blue-700 hover:from-indigo-700 hover:to-blue-800 text-white dark:from-indigo-500 dark:to-blue-600 dark:hover:from-indigo-600 dark:hover:to-blue-700 shadow-lg">
+              <Link href="/make-friends" className="font-semibold px-8 py-6 text-lg">
+                心情交友 <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
           </div>
 
          {/*<div className="mt-16 grid grid-cols-3 gap-3 max-w-lg mx-auto">*/}
